@@ -1,0 +1,306 @@
+body {
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+.topbarstart {
+  display: inline;
+  position: relative;
+  left: 120px;
+  width: 100px;
+}
+
+#topbar1, #topbar2, #topbar3 {
+  display: inline;
+  font-size: 15px;
+}
+
+#topbar1 {
+  padding-right: 10px;
+  border-right: 2px solid black;
+  text-decoration: underline;
+}
+
+#topbar2, #topbar3 {
+  padding-left: 10px;
+}
+
+.topbarend {
+  display: inline;
+  position: relative;
+  left: 820px;
+}
+
+.navigationbar {
+  width: 100%;
+  background-color: #0019a5;
+  height: 70px;
+  position: relative;
+  bottom: -10px;
+}
+
+#logo {
+  width: 150px;
+  position: relative;
+  top: -40px;
+  left: 60px;
+}
+
+.links {
+  display: inline;
+  position: relative;
+  bottom: 105px;
+  left: 60px;
+  color: white;
+}
+
+#link1, #link2, #link3 {
+  display: inline;
+  padding-right: 40px;
+}
+
+#link4, #link5 {
+  display: inline;
+  color: white;
+  padding-right: 40px;
+  position: relative;
+  font-size: 15px;
+}
+
+#link4 {
+  bottom: 125px;
+  left: 900px;
+}
+
+#link5 {
+  bottom: 125px;
+  left: 910px;
+}
+
+#Searchicon {
+  display: inline;
+  position: relative;
+  bottom: 147px;
+  left: 968px;
+  width: 25px;
+}
+
+#carticon {
+  display: inline;
+  position: relative;
+  bottom: 147px;
+  left: 1046px;
+  width: 25px;
+}
+
+.signinbanner {
+  background: linear-gradient(to bottom, #0a1c47 0%, #0079c1 100%);
+  height: 100px;
+  margin: 0;
+  position: relative;
+  top: 11px;
+}
+
+#signinbarimg {
+  display: inline;
+  position: relative;
+  top: 0.5px;
+  left: 988px;
+}
+
+#title {
+  color: white;
+  display: inline;
+  position: relative;
+  left: 120px;
+  bottom: 30px;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.left, .right {
+  flex: 1;
+  padding: 20px;
+}
+
+.left {
+  border-right: 1px solid #ddd;
+  background-color: white;
+}
+
+h2 {
+  color: #003865;
+}
+
+input[type="text"], input[type="password"] {
+  width: 400px;
+  padding: 10px;
+  margin: 8px 0 15px 0;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #0079c1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.link {
+  display: block;
+  margin: 15px 0;
+  color: #0079c1;
+  text-decoration: none;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider::before, .divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #aaa;
+}
+
+.divider span {
+  margin: 0 10px;
+  color: #555;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.virgin-box {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 280px;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to right, #f60000, #091daa) border-box;
+}
+
+.virgin-box p {
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: VMCircularChatTT, sans-serif;
+}
+
+.virgin-box button {
+  background: #001f7f;
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.remember {
+  padding-bottom: 15px;
+}
+
+#b2 {
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.warning {
+  position: relative;
+  left: 120px;
+  width: 1000px;
+  margin-bottom: 70px;
+}
+
+.warning #p1 {
+  font-size: 13px;
+  width: 950px;
+}
+
+.warning #p2 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #23236a, #1079bf);
+  color: white;
+  padding: 40px 80px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1 1 180px;
+}
+
+.footer ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.footer ul li img {
+  width: 26px;
+  height: 26px;
+}
+
+.footer ul li strong {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.socialicons {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-right: 500px;
+}
+
+.socialicons img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom-text {
+  flex: 1 1 100%;
+  font-size: 13px;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+.footer-bottom-text a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+.footer .footer-img {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  width: 350px;
+}
